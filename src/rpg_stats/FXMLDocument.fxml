@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="533.0" style="-fx-background-color: #292b29;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rpg_stats.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="237.0" layoutY="443.0" onAction="#handleButtonAction" text="Roll Dice" />
+      <Label fx:id="label_number" layoutX="199.0" layoutY="39.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="48.0" text="d4:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="111.0" text="d6:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="177.0" text="d8:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="239.0" text="d10:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="302.0" text="d12:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="362.0" text="d20:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_d4" layoutX="55.0" layoutY="44.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Label fx:id="error_label" layoutX="85.0" layoutY="427.0" prefHeight="16.0" prefWidth="154.0" textAlignment="CENTER" textFill="RED" />
+      <Label fx:id="label_number1" layoutX="199.0" layoutY="102.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_number2" layoutX="199.0" layoutY="168.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_number3" layoutX="199.0" layoutY="230.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_number4" layoutX="199.0" layoutY="293.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_number5" layoutX="199.0" layoutY="353.0" prefHeight="44.0" prefWidth="76.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_d6" layoutX="55.0" layoutY="108.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_d8" layoutX="55.0" layoutY="173.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_d10" layoutX="55.0" layoutY="236.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_d12" layoutX="55.0" layoutY="299.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_d20" layoutX="55.0" layoutY="358.0" prefHeight="33.0" prefWidth="35.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Label fx:id="array_d4" layoutX="282.0" layoutY="51.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="array_d6" layoutX="282.0" layoutY="115.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="array_d8" layoutX="282.0" layoutY="180.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="array_d10" layoutX="282.0" layoutY="242.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="array_d12" layoutX="282.0" layoutY="306.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="array_d20" layoutX="282.0" layoutY="365.0" prefHeight="16.0" prefWidth="200.0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
